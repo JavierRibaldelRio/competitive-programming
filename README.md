@@ -1,2 +1,2 @@
-# competitive-programming
-Recopilación de entrenamientos para programación competitiva
+# Competitive Programming
+Recopilación de entrenamientos para programación competitiva.
