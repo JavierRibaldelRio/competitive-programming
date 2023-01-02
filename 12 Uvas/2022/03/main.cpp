@@ -23,27 +23,17 @@ void convArr(int arr[3], string str)
 bool comparar(int a[3], int b[3])
 {
 
-    for (int i = 0; i < 3; i++)
+    if (a[0] == b[0])
     {
 
-        if (a[i] + 1 == b[i])
+        if ((a[1] == b[1] && a[2] + 1 == b[2]) || (a[1] + 1 == b[1] && b[2] == 0))
         {
-
-            for (int j = i + 1; j < 3; j++)
-            {
-                if (b[j] != 0)
-                {
-                    return false;
-                }
-            }
-
             return true;
         }
-
-        if (a[i] > b[i])
-        {
-            return false;
-        }
+    }
+    else if (a[0] + 1 == b[0] && b[1] == 0 && b[2] == 0)
+    {
+        return true;
     }
 
     return false;

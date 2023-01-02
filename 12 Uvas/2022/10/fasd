@@ -1,11 +1,12 @@
 #include <iostream>
+#include <vector>
 #include <algorithm>
 using namespace std;
 
 bool casoDePrueba()
 {
 
-    int n;
+    long n;
     cin >> n;
 
     if (!cin)
@@ -14,27 +15,26 @@ bool casoDePrueba()
     {
         long tFontanero = 0, tElectricista = 0;
 
-        long data[n];
+        vector
 
-        for (int i = 0; i < n; i++)
+        for (long i = 0; i < n; i++)
         {
 
-            int d;
+            long d;
             cin >> d;
-            data[i] = d;
-        }
 
-        sort(data, data + n);
-
-        for (int i = n - 1; i >= 0; i--)
-        {
-
-            if (tFontanero > tElectricista)
-                tElectricista += data[i];
+            if (d > tFontanero && d > tElectricista)
+            {
+                tElectricista += tFontanero;
+                tFontanero = d;
+            }
+            else if (tFontanero > tElectricista)
+            {
+                tElectricista += d;
+            }
 
             else
-
-                tFontanero += data[i];
+                tFontanero += d;
         }
 
         if (tElectricista > tFontanero)
