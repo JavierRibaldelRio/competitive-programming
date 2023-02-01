@@ -22,10 +22,15 @@ bool caso()
 
             cadenaCesar[i] = cadenaCesar[i] + cesarCode;
 
-            if ((cadenaCesar[i] > 90 && cadenaCesar[i] < 97) || cadenaCesar[i] > 122)
+            if ((tolower(cadenaCesar[i]) > 122))
+            {
+                cadenaCesar[i] -= 26;
+            }
+
+            else if (tolower(cadenaCesar[i]) < 97)
             {
 
-                cadenaCesar[i] -= 26;
+                cadenaCesar[i] += 26;
             }
 
             switch (tolower(cadenaCesar[i]))
@@ -49,6 +54,7 @@ bool caso()
         return false;
     }
 
+    cout << cadenaCesar << "\n";
     cout << vocales << "\n";
 
     return true;
