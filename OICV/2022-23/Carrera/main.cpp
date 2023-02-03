@@ -38,7 +38,7 @@ resultado jugar1(int b, int c, vector<string> mazo, char *tablero)
         {
             resultado salida;
 
-            salida.casillañFinal = pos + 1;
+            salida.casillaFinal = pos + 1;
 
             salida.cartasRobadas = i + 1;
 
