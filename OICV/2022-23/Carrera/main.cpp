@@ -1,7 +1,7 @@
-z #include<iostream>
+#include <iostream>
 #include <string>
 #include <vector>
-    using namespace std;
+using namespace std;
 
 struct resultado
 {
@@ -38,7 +38,7 @@ resultado jugar1(int b, int c, vector<string> mazo, char *tablero)
         {
             resultado salida;
 
-            salida.casillaFinal = pos + 1;
+            salida.casillañFinal = pos + 1;
 
             salida.cartasRobadas = i + 1;
 
