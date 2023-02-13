@@ -10,6 +10,7 @@ Mi perfil [Ribal21](https://www.juezonline.com/user/profile.php?id=29138)
 - 114 - Último dígito del factorial
 - 116 - ¡Hola mundo!
 - 117 - La fiesta aburrida
+- 123 - Conjugar Verbos
 - 150 - ¡A dibujar hexágonos!
 - 151 - ¿Es matriz identidad?
 - 152 - Va de modas...
