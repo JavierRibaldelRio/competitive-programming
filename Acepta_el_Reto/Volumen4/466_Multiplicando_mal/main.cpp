@@ -21,15 +21,16 @@ void caso()
     string n1, n2;
 
     cin >> n1 >> n2;
-    
-    int resultado
+
+    int resultado = 0;
 
     int longitudMayor = (n1.length() > n2.length()) ? n1.length() : n2.length();
 
     for (int i = longitudMayor - 1; i >= 0; i--)
     {
 
-        resultado = resultado + extraerDigito(n1, i) * extraerDigito(n2, i) * 10 * i;
+        int temp = extraerDigito(n1, longitudMayor - i) * extraerDigito(n2, i) * 10 * i;
+        resultado = resultado + temp;
     }
 
     cout << resultado << "\n";
