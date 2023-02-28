@@ -30,3 +30,8 @@ Mi perfil [Ribal21](https://www.juezonline.com/user/profile.php?id=29138)
 - 622 - La media prometida
 - 623 - El Joker de la Primitiva
 - 635 - Cinquenceto
+- 663 - Contando desde el cero
+- 664 - Gálibo
+- 665 - SemVer++
+- 666 - Yo lo coloco
+- 667 - Pipos
