@@ -20,6 +20,7 @@ Mi perfil [Ribal21](https://www.juezonline.com/user/profile.php?id=29138)
 - 165 - Número hyperpar
 - 335 - Pirámide de canicas
 - 364 - Espionaje en Navidad
+- 370 - La 13-14
 - 525 - Multas desde el cielo
 - 551 - Mensaje secreto
 - 579 - Felipe y sus tareas
