@@ -1,13 +1,28 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
-void caso()
+bool caso()
 {
 
-    // Obtiene el número de familias y cuantas filas tiene el autobús
-}
+    int n, m;
 
+    cin >> n;
+
+    m = n - 1;
+    bool s[n], r[n - 1];
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> s[i];
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> s[i];
+    }
+}
 int main()
 {
 
