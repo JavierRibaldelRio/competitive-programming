@@ -5,6 +5,7 @@
     "python.formatting.provider": "none",
     "files.associations": {
         "algorithm": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "iostream": "cpp"
     }
 }
