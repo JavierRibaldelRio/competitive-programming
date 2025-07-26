@@ -1,0 +1,33 @@
+******
+******
+******
+
+  o
+ ooo
+ooooo
+
+vvvvv
+ vvv
+  v
+
+    z
+  zzz
+zzzzz
+  zzz
+    z
+
+p
+ppp
+ppppp
+ppp
+p
+
+  %
+ %%%
+%%%%%
+ %%%
+  %
+
+  ###
+ #####
+#######
