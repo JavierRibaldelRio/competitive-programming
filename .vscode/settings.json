@@ -6,6 +6,13 @@
     "files.associations": {
         "algorithm": "cpp",
         "fstream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "hash_map": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "string_view": "cpp",
+        "flat_map": "cpp",
+        "flat_set": "cpp"
     }
 }
